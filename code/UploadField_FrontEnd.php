@@ -33,7 +33,7 @@ class UploadField_FrontEnd extends UploadField {
 			THIRDPARTY_DIR . '/jquery-fileupload/jquery.fileupload.js',
 			THIRDPARTY_DIR . '/jquery-fileupload/jquery.fileupload-ui.js',
 			FRAMEWORK_DIR . '/javascript/UploadField_uploadtemplate.js',
-			'UploadFieldFrontEnd/UploadField_downloadtemplate.js',
+			'UploadFieldFrontEnd/js/UploadField_downloadtemplate.js',
 			FRAMEWORK_DIR . '/javascript/UploadField.js',
 		));
 		Requirements::css(THIRDPARTY_DIR . '/jquery-ui-themes/smoothness/jquery-ui.css'); // TODO hmmm, remove it?
